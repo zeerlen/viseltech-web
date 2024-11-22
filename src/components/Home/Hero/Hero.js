@@ -19,8 +19,7 @@ const Home = () => {
     className="flex-1">
     <h1 className="text-4xl lg:text-6xl text-white font-extrabold mb-4 capitalize">Nós podemos fazer a transformação digital que sua empresa precisa!
 </h1>
-    <p className="text-2xl text-bold text-white mb-4">Temos as melhores soluções do mercado <br>
-    </br> para digitalizar e otimizar sua empresa.</p>
+    <p className="text-2xl text-bold text-white mb-4">Temos as melhores soluções do mercado para digitalizar e otimizar sua empresa.</p>
     <div className="flex gap-5">
     <Link href="/about" className="primary-btn shadow-lg">Saiba Mais</Link>
     </div>
