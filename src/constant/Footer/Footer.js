@@ -47,9 +47,6 @@ const Footer = () => {
               <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
                 <Link href="/contact">Contato</Link>
               </li>
-              <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
-                <Link href="/portfolio">Portfólio</Link>
-              </li>
             </ul>
           </div>
           <div className="mx-auto text-center md:text-start">
@@ -60,17 +57,17 @@ const Footer = () => {
             </div>
             <ul className=" list-disc list-inside list-none">
               <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
-                <Link href="/services/digital-marketing">
+                <Link href="#">
                   AI e AI Generativa
                 </Link>
               </li>
               <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
-                <Link href="/services/website-optimization">
+                <Link href="#">
                   Automação de Processos Robóticos (RPA)
                 </Link>
               </li>
               <li className="my-2 text-sm text-slate-200 hover:text-white transition-all duration-300">
-                <Link href="/services/web-development">
+                <Link href="#">
                   Hiperautomação
                 </Link>
               </li>
