@@ -42,26 +42,28 @@ const Team = ({data}) => {
                         
                         { 
                             data?
-                            data.map(item=>(
+                            data.map((item, index) => (
                                 <motion.div 
-                                variants={animateVariants}
-                                initial="offscreen"
-                                whileInView="onscreen"
-                                viewport={{once:true,amount: 0.8}}
-                                    
-                                
-                                className="flex">
-                                    <img
-                                        className="object-cover w-16 h-16 md:w-20 md:h-20 mr-4 rounded-full shadow ring-1 bg-gray-700 dark:bg-gray-300"
-                                        src={item.image}
-                                        alt="Person"
-                                    />
-                                    <div className="flex flex-col gap-1 justify-center">
-                                        <p className="text-md">{item.name}</p>
-                                        <p className="text-sm text-gray-800 dark:text-gray-300">{item.role}</p>
-                                    </div>
+                                  key={index}
+                                  variants={animateVariants}
+                                  initial="offscreen"
+                                  whileInView="onscreen"
+                                  viewport={{once: true, amount: 0.8}}
+                                  className="flex"
+                                >
+                                  <Image
+                                    src={item.image}
+                                    alt="Person"
+                                    width={80}
+                                    height={80}
+                                    className="object-cover w-16 h-16 md:w-20 md:h-20 mr-4 rounded-full shadow ring-1 bg-gray-700 dark:bg-gray-300"
+                                  />
+                                  <div className="flex flex-col gap-1 justify-center">
+                                    <p className="text-md">{item.name}</p>
+                                    <p className="text-sm text-gray-800 dark:text-gray-300">{item.role}</p>
+                                  </div>
                                 </motion.div>
-                                ))
+                              ))
                             :
                             MEMBERS.map((item, index) => (
                                 <motion.div 
