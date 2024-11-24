@@ -12,7 +12,7 @@ const MEMBERS = [
         image: image.victorImage,
         name: 'Victor Brito',
         role: 'Chief Operating Officer (COO)',
-        linkedin: 'https://www.linkedin.com/in/victorbbrito',
+        linkedin: 'https://www.linkedin.com/in/victorbbrito/',
     },
 ];
 

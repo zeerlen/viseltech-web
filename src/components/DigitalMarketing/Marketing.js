@@ -45,7 +45,7 @@ const Marketing = () => {
               <div className="h2-feature-icon shadow-lg sky-shadow bg-sky">
                 <svg
                   id="Capa_1"
-                  enable-background="new 0 0 512 512"
+                  enableBackground="new 0 0 512 512"
                   height="512"
                   viewBox="0 0 512 512"
                   width="512"
@@ -199,7 +199,7 @@ const Marketing = () => {
               <div className="h2-feature-icon indigo-shadow bg-indigo shadow-lg">
                 <svg
                   id="Layer_5"
-                  enable-background="new 0 0 64 64"
+                  enableBackground="new 0 0 64 64"
                   height="512"
                   viewBox="0 0 64 64"
                   width="512"
