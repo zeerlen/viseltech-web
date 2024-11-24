@@ -1,5 +1,4 @@
 import Footer from '@/constant/Footer/Footer';
-import Head from 'next/head';
 import './globals.css';
 import { Nunito } from 'next/font/google';
 import Header from '@/constant/Navbar/Header';
@@ -23,9 +22,6 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
       <body className={nunito.className}>
         <Header />
         {children}

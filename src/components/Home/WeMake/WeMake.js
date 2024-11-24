@@ -10,9 +10,9 @@ const features = [
     icon: CodeBracketIcon,
   },
   {
-    name: 'Inteligência Artificial e Hiperautomção',
+    name: 'Inteligência Artificial e Hiperautomação',
     description:
-      'De acordo com a Gartner, até 2025, mais de 70% das organizações terão implementado alguma forma de hiperautomção para melhorar a eficiência dos negócios. Adotar tecnologias como Inteligência Artificial e RPA (Automatização Robótica de Processos) é um passo fundamental para competir no mercado global. Com nossas soluções de IA, ajudamos você a automatizar atividades repetitivas e a tomar decisões baseadas em dados reais, gerando resultados mais precisos e rápidos.',
+      'De acordo com a Gartner, até 2025, mais de 70% das organizações terão implementado alguma forma de hiperautomação para melhorar a eficiência dos negócios. Adotar tecnologias como Inteligência Artificial e RPA (Automatização Robótica de Processos) é um passo fundamental para competir no mercado global. Com nossas soluções de IA, ajudamos você a automatizar atividades repetitivas e a tomar decisões baseadas em dados reais, gerando resultados mais precisos e rápidos.',
     icon: PencilSquareIcon,
   },
   {
