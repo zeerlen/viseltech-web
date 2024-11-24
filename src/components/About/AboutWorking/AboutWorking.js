@@ -13,7 +13,7 @@ const AboutWorking = () => {
                         <h4 className="text-lg pb-4 font-normal capitalize">Saiba mais sobre nós</h4>
                     </div>
                     <div className="primary-heading">
-                        <h2>Nosso <span className="highlight">processo</span> de trabalho</h2>
+                        <h2>Nosso <span className="highlight">Processo</span> de Trabalho</h2>
                     </div>
             </div>
             </div>

@@ -1,4 +1,5 @@
 import AboutUs from "@/components/About/AboutUs/AboutUs"
+import Team from "@/components/About/Team/Team"
 import AboutWorking from "@/components/About/AboutWorking/AboutWorking"
 import BestFeature from "@/components/About/BestFeature/BestFeature"
 import Cta from "@/components/CTA/Cta"
@@ -21,6 +22,9 @@ const aboutSections = [
   },
   {
     section: <AboutWorking/>
+  },
+  {
+    section: <Team/>
   },
   {
     section: <ContactAddress heading={`Get in <span class="highlight">Touch</span>`} color={"bg-white"}/>

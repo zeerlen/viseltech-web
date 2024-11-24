@@ -79,6 +79,8 @@ import setting from '../../assets/img/svg/setting.svg'
 import loupe from '../../assets/img/svg/loupe.svg'
 import strategicPlan from '../../assets/img/svg/strategic-plan.svg'
 import vector from '../../assets/img/svg/vector.svg'
+import alenImage from '../../assets/img/about/alen.png'
+import victorImage from '../../assets/img/about/victor.png'
 import seoOptimization from '../../assets/img/seo-optimization.png'
 import social from '../../assets/img/ppc/about.png'
 import heroImg from '../../assets/home/banner/banner.png'
@@ -143,6 +145,8 @@ const image = {
    loupe,
    strategicPlan,
    vector,
+   alenImage,
+   victorImage,
    semService,
    semServiceBg,
    semMarketing,
