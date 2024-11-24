@@ -35,7 +35,7 @@ const BestFeature = () => {
         description: "Desenvolvemos agentes inteligentes que podem aprender, raciocinar e tomar decisões cruciais para o seu negócio.",
         icon: ArrowTrendingUpIcon
     },{
-        name: "Automatização de Processos Robóticos (RPA)",
+        name: "Automação de Processos Robóticos (RPA)",
         description: "Realizamos mapeando processos, desenvolvemos e orquestramos RPAs para sua comodidade empresarial.",
         icon: ArrowPathIcon
     },{
