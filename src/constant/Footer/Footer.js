@@ -104,7 +104,10 @@ const Footer = () => {
                       </a>
                     </li>
                     <li className="social">
-                      <a className="social-icon" href="#">
+                      <a className="social-icon" 
+                      href="https://www.linkedin.com/company/viseltech/"
+                      target="_blank"
+                      rel="noopener noreferrer">
                         <FaLinkedinIn />
                       </a>
                     </li>

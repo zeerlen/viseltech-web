@@ -27,7 +27,7 @@ const animateVariants = {
 
 const Team = ({data}) => {
   return (
-    <section className="team-mebers">
+    <section className="team-members">
     <div className="app__container">
         <div className="grid grid-cols-1 mx-auto m-auto">
             <div>

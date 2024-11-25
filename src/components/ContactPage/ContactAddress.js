@@ -30,10 +30,10 @@ const items = {
 
 const ContactAddress = () => {
   return (
-    <section className="contact-us-wrapper py-16 md:py-32 bg-slate-50">
-      <div className="app__container contact-heading text-center mx-w-700 m-auto pb-50 pb-md-30 get-bottom animate">
-        <div className="section-title pb-25 animate">
-          <h2 className="text-4xl font-extrabold">Entre em Contato Conosco</h2>
+    <section className="contact-us-wrapper py-4 md:py-8 bg-slate-50">
+      <div className="app__container contact-heading text-center mx-w-700 m-auto pb-60 pb-md-30 get-bottom animate">
+        <div className="section-title pb-15 animate">
+          <h2 className="text-3xl primary-heading">Entre em <span className="highlight">Contato</span> Conosco</h2>
         </div>
       </div>
       <div className="app__container mt-8">
